@@ -1,0 +1,13 @@
+.css-1t6c9ts{
+	justify-content: center;
+  }
+  .MuiTypography-body1{
+	padding: 10px;
+  }
+  .MuiButton-textPrimary {
+	color: #fff;
+	background-color: black;
+  }
+  .MuiButton-textPrimary:hover {
+	color: #000;
+  }

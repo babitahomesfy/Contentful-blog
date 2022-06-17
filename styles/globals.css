@@ -1,0 +1,167 @@
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+
+/* CSS CODES FOR CARD CARDS */
+.project_title{
+  margin-top: 60px;
+  margin-bottom: -40px;
+  padding:0 60px;
+  text-align: center;
+}
+.project_title h3 {
+  font-size: 34px;
+}
+.project_list{
+  /* margin-top: 60px; */
+  padding:60px;
+  display:grid;
+  grid-template-columns:2fr 1fr 1fr;
+  grid-gap:28px;
+}
+.blogContent{
+  margin: 90px 0;
+  padding:0 60px;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+.blogContent p {
+    margin: 4px auto;
+    font-size: 16px;
+    line-height: 24px;
+}
+.project_list h3{
+  font-size: 20px;
+  line-height: 32px;
+  margin-top: 15px;
+}
+.project_list .MuiCardContent-root{
+  padding-bottom: 0px;
+}
+/* CSS CODES FOR HEADER */
+.css-hip9hq-MuiPaper-root-MuiAppBar-root {
+  background-color: #fff;
+  color: #08090C;
+}
+.css-1083xa6-MuiTypography-root {
+  margin: 10px;
+}
+.MuiButton-textPrimary {
+  color: #ffff;
+  background-color: #08090C;
+}
+.css-2uchni {
+  display: block;
+}
+.css-2uchni Button {
+  display: block;
+  background: #08090C;
+  color: #fff;
+}
+.btnContainer{
+  padding: 16px;
+}
+.closeICon {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+.drawerContent{
+  text-align: center;
+  margin-top: 100px;
+}
+.logo{
+  padding: 20px;
+}
+/* Banner codes */
+.banner{
+  width: 100%;
+}
+
+/* CSS CODES FOR FOOTER */
+.ftr-main {
+  text-align: center;
+  background: #08090C;
+  padding: 30px 60px;
+  color: #fff;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+p.footer-text-content,.copyright_sec p {
+  font-size: 12px;
+  margin: 10px 0;
+}
+.proj-logo img {
+  height: 150px;
+}
+.footer-page-link {
+  display: inline-block;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #fff;
+}
+.footer-page-link a{
+text-decoration: none;
+margin: 0 20px;
+color: #fff;
+}
+.social-link, .copy-w {
+  margin: 10px 0;
+}
+.social-link a{
+margin-right: 20px;
+}
+.copy-w{
+color: #fff;
+}
+
+/* MEDIA QUERIES START */
+@media(max-width:992px){
+  .project_list{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    padding:0 16px;
+  }
+  .project_title{
+    margin-top: 40px;
+    margin-bottom: -16px;
+  }
+  .ftr-main {
+    padding:16px;
+  }
+  .blogContent{
+    padding:16px;
+  }
+}
+@media(max-width:899px){
+  .callButton-hide{
+    display: none;
+    visibility: hidden;
+  }
+}
+@media(max-width:767px){
+  .project_list{
+    display:grid;
+    grid-template-columns:1fr;
+    padding:16px;
+  }
+  .ftr-main {
+    padding:16px;
+  }
+  .blogContent{
+    padding:16px;
+  }
+  .css-2uchni{
+    display:none;
+  }
+}
